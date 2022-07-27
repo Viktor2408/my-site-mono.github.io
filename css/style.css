@@ -1,0 +1,530 @@
+@font-face {
+	font-family: 'Golos';
+	src: url('../fonts/Golos Text_Regular.eot');
+	src: local('☺'), url('../fonts/Golos Text_Regular.woff') format('woff'), url('../fonts/Golos Text_Regular.ttf') format('truetype'), url('../fonts/Golos Text_Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RoadRadio';
+	src: url('../fonts/RoadRadio.eot');
+	src: local('☺'), url('../fonts/RoadRadio.woff') format('woff'), url('../fonts/RoadRadio.ttf') format('truetype'), url('../fonts/RoadRadio.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'GraphikLCWeb';
+	src: url('../fonts/Graphik LC Web Regular.eot');
+	src: local('☺'), url('../fonts/Graphik LC Web Regular.woff') format('woff'), url('../fonts/Graphik LC Web Regular.ttf') format('truetype'), url('../fonts/Graphik LC Web Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+    overflow-x: hidden;
+    }
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.menu-block{
+    width: 100%;
+    height: 92px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.mBur{
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    margin-top: 43px;
+}
+.mBur:before{
+    content: '';
+    background-color: #262633;
+    position: absolute;
+    width: 23px;
+    height: 2px;
+    left: 0;
+    z-index: 3;
+    top: 0;
+}
+.mBur::after{
+    content: '';
+    background-color: #262633;
+    position: absolute;
+    width: 12px;
+    height: 2px;
+    left: 0;
+    z-index: 3;
+    top: 8px;
+    bottom: 0;
+}
+
+
+i.logo{
+    background-image: url("../images/logo1.png");
+    width: 106px;
+    height: 64px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 5px;/* 48 */
+}
+i.compare{
+    background-image: url("../images/compare.png");
+    width: 12px;
+    height: 16px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 60px; /* 100 */
+    margin-top: 37px;
+}
+
+i.search{
+    background-image: url("../images/search.png");
+    width: 15px;
+    height: 15px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 27px;
+    margin-top: 37px;
+}
+.burger-list{
+    display: flex;
+    margin-top: 36px;
+}
+.burger-list li{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    padding-right: 46px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.burger-list li a{
+    color: #262633;
+    text-decoration: none;
+}
+.connect{
+    margin-left: 40px; /* 59 */
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+}
+.phone{
+    text-decoration: none;
+    color: #262633;
+}
+.mail-header{
+    font-family: 'GraphikLCWeb';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-decoration: none;
+    color: #797986;
+}
+.mail{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #F23147;
+}
+a.button{
+    margin-top: 20px;
+    padding:19px 28px ;
+    background-color: #BF2738;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'RoadRadio';
+    font-size: 14px;
+    color:#fff;
+    border: 1px solid #BF2738;
+    border-radius: 14px; 
+    margin-left: 59px;
+}
+a.form-button{
+    margin-top: 20px;
+    padding:19px 28px ;
+    background-color: #BF2738;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'RoadRadio';
+    font-size: 14px;
+    color:#fff;
+    border: 1px solid #BF2738;
+    border-radius: 14px; 
+    margin-left: 59px;
+}
+a.question{
+    margin-left: 0px;
+}
+
+.box{
+    display: flex; 
+    align-items: flex-start;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F5F5F5;
+}
+.home{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 10px;
+    color: #797986;
+}
+.cont{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 10px;
+    color: #C9C9CF;
+}
+h1{
+    font-family: 'RoadRadio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    color: #262633;
+}
+h2{
+    font-family: 'RoadRadio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #262633;
+}
+h4{
+    font-family: 'RoadRadio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    color: #262633;
+}
+p.text{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #262633;
+}
+p.requisites{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #808080;
+}
+p.pLeft16{
+    padding-left: 16px;
+}
+.line{
+    margin-top: 21px;
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 21px;
+    width: 100%;
+    text-align: center; 
+}
+.form-text{
+    width: 100%;
+    height: 52px;
+    border-radius: 14px;
+    background: #F5F5F5;
+    border: 1px solid #fff;
+    padding: 17px 20px;
+    margin-right: 30px;
+}
+.form-phone{
+    width: 100%;
+    height: 52px;
+    border-radius: 14px;
+    background: #F5F5F5;
+    border: 1px solid #fff;
+    padding: 17px 20px;
+}
+.form-comment{
+    width: 100%;
+    height: 133px;
+    border-radius: 14px;
+    background: #F5F5F5;
+    border: 1px solid #fff;
+    margin-top: 28px;
+    padding: 17px 20px;
+}
+.form-sub{
+    margin-top: 21px;
+}
+.checkbox{
+    background: #F5F5F5;
+    border: 1px solid #fff;
+}
+
+
+.city{
+    width: 100%;
+    height: 310px;
+    background: #F5F5F5;
+    border-radius: 20px;
+    padding: 33px 22px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.city-phone{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    color: #262633;
+}
+.address{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #797986;
+}
+.route{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BF2738;
+}
+.working-mode{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #262633;
+    padding-top: 40px;
+}
+.pTop20{
+    padding-top: 20px;
+}
+.pTop50{
+    padding-top: 50px; 
+}
+.maps{
+    margin-bottom: 40px;
+    filter: grayscale(1);
+	-ms-filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+}
+
+footer{
+    background: linear-gradient(to right,#222225 50%, #2A2A2E 50%);
+    width: 100%;
+    margin-top: 20px;
+    height: auto;
+    color: rgb(0, 0, 0);
+    
+    bottom: 0;
+}
+footer ul.footer-menu{
+    list-style: none;
+    padding-left: 0;
+    padding-top: 50px;
+}
+.footer-menu li a{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-menu li a:hover{
+    color:#F23147;
+    transition: 0.2s;
+}
+.footer-info{
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 69px;
+}
+.footer-info li a{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #797986;
+    text-decoration: none;
+}
+.burger-list li a:hover{
+    color:#F23147;
+    transition: 0.2s;
+}
+.footer-info li a:hover{
+    color:#ffffff;
+    transition: 0.2s;
+}
+.footer-info li{
+    list-style-type: none;
+    padding-left: 0px;
+    padding-right: 12px ;
+}
+.footer-phone{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.footer-button{
+    padding:12px 27px ;
+    background-color: #2A2A2E;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'RoadRadio';
+    font-size: 14px;
+    color:#fff;
+    border: 2px solid #47474E;
+    border-radius: 14px; 
+}
+.footer-address{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.addresPTop{
+    padding-top: 97px;
+}
+
+.footer-line{
+    border-bottom: 1px solid #353539;
+    padding-bottom: 43px;
+    width: 100%;
+    text-align: center; 
+}
+.todo{
+    color: #F23147;
+}
+
+.moscow{
+    padding-top: 20px;
+}
+.saratov{
+    padding-top: 60px;
+}
+.novosibirsk{
+
+}
+@media (max-width:1199px){
+    .moscow{
+        padding-top: 0px;
+    }
+    .saratov{
+        padding-top: 60px;
+    }
+    .burger-list li{
+        padding-right: 15px;
+    }
+    i.compare{
+        margin-left: 30px;
+    }
+    .connect{
+        margin-left: 15px;
+    }
+    a.button{
+        padding: 19px 27px;
+        margin-left: 20px;
+    }
+    .footer-button{
+        font-size: 12px;
+    }
+    .footer-phone {
+        font-size: 29px;
+    } 
+    .footer-line{
+        padding-bottom: 0;
+    }
+}
+@media (max-width:991px){
+    a.button{
+        display: none;
+    }
+    .none{
+        display: none;
+    }
+    .addresPTop {
+        padding-top: 33px;
+    }
+    .footer-info {
+        padding-top: 46px;
+    }
+}
+@media (max-width:767px){
+    .container {
+        padding: 20px;
+        max-width: none;
+    }
+    footer {
+        background: linear-gradient(to bottom,#222225 50%, #2A2A2E 50%);
+    }
+    a.button{
+        display: none;
+    }
+    .none{
+        display: none;
+    }
+    i.logo{
+        background-image: url(../images/logo2.png);
+        width: 90px;
+        height: 30px;
+        margin-top: 30px;
+    }
+}
+@media (max-width:648px){
+    i.compare{
+        margin-left: 15px;
+    }
+    i.search{
+        margin-left: 15px;
+    }
+}
+@media (max-width:621px){
+    .burger-list{
+        display: none;
+    }
+    .connect{
+        display: none;
+    }
+    .menu-block {
+        height: 65px;
+        display: flex;
+    }
+    .mBur {
+        margin-right: 30%;
+    }
+    .mLeft {
+        margin-left: 30%;
+    }
+    i.logo{
+        background-image: url("../images/logo1.png");
+        width: 106px;
+        height: 64px;
+        margin-top: 0px;
+    }
+    
+}
